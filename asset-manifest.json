@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lampa-test-front/static/css/main.98ec47ca.css",
+    "main.js": "/lampa-test-front/static/js/main.2bf0a3eb.js",
+    "static/js/787.609cec83.chunk.js": "/lampa-test-front/static/js/787.609cec83.chunk.js",
+    "static/media/logo.svg": "/lampa-test-front/static/media/logo.65855e0b1a4c8c9ed16822b76dbd66d1.svg",
+    "index.html": "/lampa-test-front/index.html",
+    "main.98ec47ca.css.map": "/lampa-test-front/static/css/main.98ec47ca.css.map",
+    "main.2bf0a3eb.js.map": "/lampa-test-front/static/js/main.2bf0a3eb.js.map",
+    "787.609cec83.chunk.js.map": "/lampa-test-front/static/js/787.609cec83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98ec47ca.css",
+    "static/js/main.2bf0a3eb.js"
+  ]
+}
