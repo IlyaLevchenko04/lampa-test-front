@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, FieldValues } from "react-hook-form";
 import { login } from "../redux/authSlice/authOperations";
 import { useAppDispatch } from "../redux/hooks/hooks";
-import { StyledInput, StyledLabel } from "../styledComponents";
+import { StyledBuyBtn, StyledInput, StyledLabel } from "../styledComponents";
 
 export const LoginForm: React.FC = () => {
   const {
@@ -65,7 +65,9 @@ export const LoginForm: React.FC = () => {
           </p>
         </StyledLabel>
 
-        <button type="submit">Login</button>
+        <StyledBuyBtn type="submit" style={{ margin: 0 }}>
+          Login
+        </StyledBuyBtn>
       </form>
     </div>
   );

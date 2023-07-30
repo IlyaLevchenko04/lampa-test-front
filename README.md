@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# lampa-test-front
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Цей проект було виконано за допомогую React.js та TypeScript.**
 
-## Available Scripts
+Як запустити:
 
-In the project directory, you can run:
+```sh
+npm start
+```
 
-### `npm start`
+Це Single page Application з 4 роутами.
+**1)** /products - тут можна побачити роут з усіма продуктами, які можна додати до себе у кошик, натиснувши на зелену кнопку buy.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**2)** /cart - корзина з товарами, де знаходиться форма для замовлення та усі товари, кількість кожного товару можна додати, або прибрати взагалі товар з корзини.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**3)** /login - форма для юзерів, що вже зареєстровані в базі данних. Зліва біля лого можна буде побачити привітання.
 
-### `npm test`
+**4)** /register - форма для реєстрації нових юзерів.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Як back-end я використовував своє API[документація - https://products-api-umhe.onrender.com/api-docs].
 
-### `npm run build`
+Для збереження замовлень я використовував localStorage, тому що на беці не було логіки збереження замовлень. Також в localStorage зберігаються jwt ключі для рефрешу та аксесу, а також товари, що були у кошику в момент перезавантаження сторінки та їх кількість.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Був використаний redax toolkit, що був централізованим стейтом для усьої апки.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для більш легкого користування формами використовував бібліотеку react-hook-form.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Для стилізації були використані styled-components.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Код викладений на гітхаб, та піднята сторінка за допомогою gitHub Pages[https://ilyalevchenko04.github.io/lampa-test-front/].

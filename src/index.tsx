@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/lampa-test-front">
       <App />
     </BrowserRouter>
   </Provider>
